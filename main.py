@@ -3,6 +3,7 @@
 #tensorboard dev upload --logdir logs_SBER --name "SBER My latest experiment" --description "SBER Simple comparison of several hyperparameters"
 #tensorboard.exe --logdir tf_logs --port=5555
 
+#import tensorflow
 import os
 import json
 import time
