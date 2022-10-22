@@ -4,6 +4,7 @@
 #tensorboard.exe --logdir tf_logs --port=5555
 
 #import tensorflow
+#tensorflow and keras here or another file?
 import os
 import json
 import time
@@ -87,7 +88,7 @@ def main():
 
     print("train data shapes: ", x.shape, y.shape)
     print("train data shapes: ", x2.shape, y2.shape)
-    print(x, y);print(x2, y2); exit(1)
+    #print(x, y);print(x2, y2); exit(1)
 
 
     '''
